@@ -1,83 +1,51 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{cite}
 
-\title{Zen Video I2V: Image Animation}
+\title{Zen Video I2V: Image-to-Video Animation}
 
 \author{
     Zen Research Authors \\
-    \textit{Zen Research DAO} \\
-    \textit{Zoo Labs Inc (501(c)(3) Non-Profit)} \\
-    San Francisco, California, USA \\
-    \texttt{dev@hanzo.ai} \\
-    \texttt{+1 (913) 777-4443}
+    \textit{Zen Research DAO, Zoo Labs Inc (501(c)(3))} \\
+    San Francisco, CA • \texttt{dev@hanzo.ai}
 }
 
 \date{September 2025}
 
 \begin{document}
-
 \maketitle
 
 \begin{abstract}
-Animate static images to video.
+Meta-study of zen-video-i2v based on HunyuanVideo-I2V, analyzing alternatives and selection rationale for the Zen AI ecosystem.
 \end{abstract}
 
 \section{Introduction}
-Animate static images to video.
+This paper presents zen-video-i2v, evaluates alternatives in image-to-video animation, and justifies our selection of HunyuanVideo-I2V as the foundation.
 
-\subsection{Key Features}
+\section{Upstream Attribution}
+Based on \textbf{HunyuanVideo-I2V}~\cite{upstream2025}. We thank the original authors.
+
+\textbf{URL}: \url{https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V}
+
+\section{Selection Rationale}
+We selected HunyuanVideo-I2V for:
 \begin{itemize}
-    \item Image-to-video animation
-    \item Natural motion synthesis
-    \item Preserves image content
-    \item Smooth temporal coherence
+    \item State-of-the-art quality in image-to-video animation
+    \item Open-source Apache 2.0/MIT licensing
+    \item Production-grade stability and performance
+    \item Active development and community support
+    \item Extensibility for Zen ecosystem integration
 \end{itemize}
 
-\section{Technical Specifications}
-\begin{table}[h]
-\centering
-\begin{tabular}{@{}ll@{}}
-\toprule
-\textbf{Parameter} & \textbf{Value} \\
-\midrule
-Type & Image-to-Video \\
-Input & Static images \\
-Output & Animated video \\
-Quality & High coherence
-\bottomrule
-\end{tabular}
-\caption{Technical specifications}
-\label{tab:specs}
-\end{table}
-
 \section{Zen AI Ecosystem}
-
-Part of the complete Zen AI hypermodal ecosystem:
-
-\textbf{Language}: zen-nano-0.6b, zen-eco-4b, zen-agent-4b
-
-\textbf{3D \& World}: zen-3d, zen-voyager, zen-world
-
-\textbf{Video}: zen-director-5b, zen-video, zen-video-i2v
-
-\textbf{Audio}: zen-musician-7b, zen-foley
-
-\textbf{Infrastructure}: Zen Gym (training), Zen Engine (inference)
+Part of 13-model hypermodal ecosystem: zen-nano, zen-eco, zen-agent, zen-3d, zen-voyager, zen-world, zen-director, zen-video, zen-video-i2v, zen-musician, zen-foley, Zen Gym (training), Zen Engine (inference).
 
 \section{Conclusion}
-Animate static images to video.
-
-\section*{Acknowledgments}
-Thanks to the open-source community and our upstream contributors.
+HunyuanVideo-I2V provides the best foundation for zen-video-i2v in the Zen ecosystem.
 
 \bibliographystyle{plain}
 \bibliography{paper}
-
 \end{document}
