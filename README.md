@@ -460,3 +460,39 @@ Additionally, we also thank the Tencent Hunyuan Multimodal team for their help w
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Tencent-Hunyuan/HunyuanVideo&type=Date" />
  </picture>
 </a> -->
+
+---
+
+## Based On
+
+**zen-video-i2v** is based on [HunyuanVideo I2V](https://github.com/Tencent/HunyuanVideo)
+
+We are grateful to the original authors for their excellent work and open-source contributions.
+
+### Upstream Source
+- **Repository**: https://github.com/Tencent/HunyuanVideo
+- **Base Model**: HunyuanVideo I2V
+- **License**: See original repository for license details
+
+### Changes in Zen LM
+- Adapted for Zen AI ecosystem
+- Fine-tuned for specific use cases
+- Added training and inference scripts
+- Integrated with Zen Gym and Zen Engine
+- Enhanced documentation and examples
+
+### Citation
+
+If you use this model, please cite both the original work and Zen LM:
+
+```bibtex
+@misc{zenlm2025zen-video-i2v,
+    title={Zen LM: zen-video-i2v},
+    author={Hanzo AI and Zoo Labs Foundation},
+    year={2025},
+    publisher={HuggingFace},
+    howpublished={\url{https://huggingface.co/zenlm/zen-video-i2v}}
+}
+```
+
+Please also cite the original upstream work - see https://github.com/Tencent/HunyuanVideo for citation details.

@@ -160,3 +160,10 @@ ckpts/hunyuan-video-t2v-720p
 ckpts/hunyuan-video-t2v-720p/vae
 ckpts/hunyuan-video-t2v-720p/transformers
 models/*
+
+
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+GROK.md
+QWEN.md
