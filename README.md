@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="zen-video-i2v" width="880"></p>
+
 # Zen Video I2V
 
 Image-to-video generation.
